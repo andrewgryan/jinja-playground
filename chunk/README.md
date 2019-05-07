@@ -24,11 +24,11 @@ For example, given 5 items `ITEMS=[1, 2, 3, 4, 5]` and two tasks `N=2`, the
 above template would generate the following text
 
 ```
-[[task_01]]
+[[task_00]]
     [[[environment]]]
        HOURS=1 3 5
 
-[[task_02]]
+[[task_01]]
     [[[environment]]]
         HOURS=2 4
 ```
